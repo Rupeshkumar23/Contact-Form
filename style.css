@@ -8,6 +8,9 @@
 ::-webkit-scrollbar{
     display: none;
 }
+a{
+   text-decoration: none;
+}
 body{
     background-image:url('./bg1.jpg');       
 }
@@ -160,7 +163,7 @@ body{
    display: none;
  }
  /* For Mobile*/
- @media only screen and (max-width: 600px) {
+ @media  all and (max-width: 600px) {
    body {
      width: 100%;
      height: 100vh;
@@ -220,7 +223,7 @@ body{
       flex-direction: column;
       align-items: center;
       gap: 20px;
-      top: 830px;  
+      top: 870px;  
    }
    h2{
    line-height: 10px;
